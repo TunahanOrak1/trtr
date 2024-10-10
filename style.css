@@ -1,0 +1,108 @@
+h1 {
+    color: black;
+    text-align: center
+}
+
+body {
+    background-color: pink;
+    width: 360px;
+}
+
+.foto1 {
+    width: 180px;
+    height: 250px;
+}
+
+.foto2 {
+    width: 180px;
+    height: 250px;
+}
+
+.ilkpart {
+display: flex;
+}
+
+.foto3 {
+    margin: auto;
+    position: relative;
+    left: 80px;
+}
+
+.video1 {
+   position: relative;
+   left: 30px;
+}
+
+.ikincipart {
+    width: 200px;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    
+}
+
+button {
+    background-color: indianred;
+    border: none;
+    outline: none;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+  
+  button.active {
+    transform: translateX(-100px);
+  }
+  
+  nav {
+    background-color: indianred;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: 0.4s ease;
+  }
+  
+  nav.active {
+    transform: translateX(0);
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    padding: 1rem 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .ücüncüpart {
+    display: flex;
+  }
+
+  .harleyjoker {
+    position: relative;
+    left: 80px;
+    top: 50px;
+  }
+
+  .video2 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 180px;
+  }
